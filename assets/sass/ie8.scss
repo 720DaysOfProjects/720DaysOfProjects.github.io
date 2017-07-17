@@ -4,7 +4,7 @@
 @import 'libs/skel';
 
 /*
-	Multiverse by HTML5 UP
+	Editorial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -16,39 +16,13 @@
 	input[type="button"],
 	button,
 	.button {
-		border: solid 2px _palette(border);
-
-		&.special {
-			border: 0;
-		}
+		border: solid 2px _palette(accent);
 	}
 
-/* Panel */
+/* Posts */
 
-	.panel {
-		background: _palette(bg);
-		display: none;
-
-		&.active {
-			display: block;
-		}
-
-		> .closer {
-			&:before {
-				content: '\00d7';
-				font-size: 42px;
-			}
-		}
-	}
-
-/* Main */
-
-	#main {
-		.thumb {
-			> h2 {
-				text-align: center;
-				width: 100%;
-				left: 0;
-			}
+	.posts {
+		article {
+			width: 40%;
 		}
 	}
